@@ -1,0 +1,53 @@
+DARIAN O’DIRLING
+919-809-4139
+darianodirling@gmail.com
+linkedin.com/in/darianodirling
+darianodirling.com
+
+EDUCATION	
+Bachelor of Science: Computer Science 	East Carolina University, 2024
+
+CERTIFICATIONS
+Cisco CCNA
+Microsoft Azure AZ-900
+Salesforce Certified Associate
+
+EXPERIENCE
+Company: SAS
+Title: Associate Systems Technical Support Engineer, Cary, NC                                                         December 2024 – Present
+Resolved complex technical issues in SAS 9.4 and SAS Viya environments, minimizing downtime and improving system stability for enterprise clients.
+Diagnosed system-level bottlenecks in SAS Viya on Kubernetes, implementing optimizations that improved runtime performance and reduced resource overhead across distributed nodes.
+Enhanced system performance by identifying bottlenecks and implementing optimizations, leading to improved resource efficiency and faster analytics processing.
+Collaborated with developers, data scientists, and IT teams to deliver timely and effective technical solutions, strengthening cross-functional support and client satisfaction.
+Company: East Carolina University
+Title: Research Assistant - Cyber Security Intrusion Detection in IoT, Greenville, NC                August 2024 - December 2024 
+Conducted academic research simulating network-layer attacks in IoT environments, analyzing intrusion patterns and contributing to a cybersecurity framework aimed at improving real-time anomaly detection.
+Designed and implemented a state-of-the-art cybersecurity lab, setting up routers, switches, and IoT devices to simulate real-world environments.
+Conducted over 30 cybersecurity attacks, successfully identifying critical vulnerabilities
+Collected and analyzed data from cybersecurity attacks, leading to the development of more robust security measures.
+Company: Cisco
+Title: Technical Consulting Engineer Intern, Morrisville, NC                                                               May 2023 – August 2023
+Built lab environments to replicate kernel-level and routing issues in Cisco NX-OS, using packet analysis and CLI tools to isolate software bugs and contribute code-level feedback to engineering teams.
+Created Spanish-language video content for the Cisco website, increasing accessibility for Spanish-speaking clients and enhancing customer experience.
+Selected as one of 14 Global Intern Ambassadors from a pool of 1,400+ candidates, collaborating with senior leadership on global event initiatives.
+Company: Cisco
+Title: Technical Consulting Engineer Mentor, Morrisville, NC                                                         January 2023 – March 2023
+Handpicked as one of only 5 engineers to mentor 22 new Technical Consulting Engineering interns, ensuring smooth onboarding and professional development.
+Mentored a group of 4 interns, guiding them through customer case management, CCNA certification preparation, and Cisco Webex collaboration technology, resulting in a 100% success rate in certification.
+
+Company: Cisco
+Title: Technical Consulting Engineer Co-Op, Morrisville, NC                                                         July 2022 – December 2022
+Delivered Tier 2 support on the Data Center Routing & Switching team, resolving high-severity cases for clients and improving client satisfaction.
+Spearheaded the development of custom solutions by recreating customer problems in lab environments, 
+Collaborated with engineers and developers to fix critical software bugs, contributing to product improvements that impact clients.
+Company: Apple
+Title: Support College Program, Raleigh, NC                                                               	                          March 2022 – July 2022
+Troubleshot technical problems for customers, achieving a 99% customer satisfaction rate through efficient issue resolution.
+Managed high call flow, consistently meeting performance metrics while providing technical support to 70  customers per day.
+Company: YoungLife
+Title: Volunteer Coordinator, Asheville, NC                                                                                        May 2024 – August 2024
+Trained and managed a diverse team of volunteers, utilizing organizational and leadership skills to ensure efficient operation of summer camp activities.
+Designed and conducted training volunteer training sessions to improve readiness and engagement
+
+SKILLS AND TECHNOLOGIES
+C, C++, Python, Java, Bash, PowerShell, SQL, Git, Kubernetes, Docker, Unix, Windows, Virtual Machines, SAS Administration, AWS, Routing & Switching, Cisco IOS and NX-OS, TCP/IP, Troubleshooting, System Testing, Cyber Security, Virtualization, Agile, Machine Learning, Web Development, HTML, CSS, XML, CRM, CX, Microsoft Suite, Technical Support, Communication, Documentation, Leadership, Technical Presentations, Public Speaking, Spanish, Sales
