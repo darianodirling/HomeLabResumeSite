@@ -70,3 +70,25 @@ Preferred communication style: Simple, everyday language.
 - Session management setup with connect-pg-simple
 - Password hashing utilities available
 - User schema defined for authentication implementation
+
+# Deployment and Portability
+
+## Deployment Options
+- **Docker**: Full containerization with docker-compose.yml for easy deployment
+- **HomeLab**: Automated setup script for Proxmox/Ubuntu environments with Nginx reverse proxy
+- **Standalone**: Optimized package.json and vite config for deployment outside Replit
+- **Production**: systemd service configuration with health checks and monitoring
+
+## Key Features Added
+- Health check endpoint (/api/health) for load balancers and monitoring
+- Nginx configuration with SSL support, security headers, and caching
+- Automated deployment scripts for development and production environments
+- Docker multi-stage build for optimized production images
+- Database setup automation for PostgreSQL
+- Security hardening with UFW firewall and fail2ban configuration
+
+## Documentation
+- Comprehensive README.md with setup instructions
+- DEPLOYMENT.md with detailed deployment strategies and troubleshooting
+- Environment configuration templates and examples
+- Security best practices and monitoring guidelines
