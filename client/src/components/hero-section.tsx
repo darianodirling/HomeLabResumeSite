@@ -22,8 +22,9 @@ const HeroSection = () => {
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed">
               I specialize in{" "}
               <span className="text-emerald-400">systems engineering</span>,{" "}
-              <span className="text-emerald-400">cybersecurity</span>, and{" "}
-              <span className="text-emerald-400">infrastructure automation</span>.
+              <span className="text-emerald-400">cybersecurity</span>,{" "}
+              <span className="text-emerald-400">programming & scripting</span>, and{" "}
+              <span className="text-emerald-400">leveraging AI</span> for infrastructure automation.
               My experience spans from enterprise SAS environments to building resilient
               homelab architectures that push the boundaries of what's possible.
             </p>

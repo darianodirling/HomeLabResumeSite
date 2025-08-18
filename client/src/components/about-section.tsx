@@ -3,14 +3,17 @@ import { GraduationCap, Award, Network, Cloud, Shield } from "lucide-react";
 const AboutSection = () => {
   const skills = [
     "Python",
+    "JavaScript",
+    "Bash Scripting",
+    "PowerShell",
     "Kubernetes",
     "Docker",
     "Proxmox",
     "AWS",
-    "Bash",
     "SAS Administration",
     "Cybersecurity",
     "Networking",
+    "AI & Machine Learning",
   ];
 
   return (
@@ -19,8 +22,8 @@ const AboutSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-serif font-bold mb-6">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A passionate systems engineer with expertise in cloud computing, cybersecurity,
-            and infrastructure automation.
+            A passionate IT enthusiast with expertise in systems engineering, cybersecurity,
+            programming, and leveraging AI to optimize infrastructure automation.
           </p>
         </div>
 
