@@ -1,25 +1,36 @@
 #!/bin/bash
 
-# Simple setup script for Ubuntu deployment
-echo "Setting up portfolio website..."
+# Ubuntu deployment setup - fixes all import.meta.dirname issues
+echo "Setting up portfolio website for Ubuntu..."
 
-# Replace vite config with Ubuntu-compatible version
-cp vite.config.standalone.ts vite.config.ts
+# Backup original files
+if [ ! -f "vite.config.ts.original" ]; then
+    cp vite.config.ts vite.config.ts.original
+    echo "Backed up original vite.config.ts"
+fi
 
-# Install dependencies and build
+if [ ! -f "server/vite.ts.original" ]; then
+    cp server/vite.ts server/vite.ts.original
+    echo "Backed up original server/vite.ts"
+fi
+
+# Replace with Ubuntu-compatible versions
+echo "Installing Ubuntu-compatible configurations..."
+cp vite.config.ubuntu-fixed.ts vite.config.ts
+cp server/vite.ubuntu-fixed.ts server/vite.ts
+
+# Install dependencies
 npm install
-npm run build
 
 # Create .env if needed
 if [ ! -f .env ]; then
     cp .env.example .env
-    echo "NODE_ENV=development" >> .env
-    echo "Created .env file - running in development mode to avoid serveStatic issue"
+    echo "Created .env file"
 fi
 
-# Force development mode to avoid serveStatic path issues
-sed -i 's/NODE_ENV=production/NODE_ENV=development/' .env
+# Build the application
+npm run build
 
 echo "Setup complete!"
-echo "The server will run in development mode to avoid Node.js compatibility issues."
-echo "Run 'npm start' to start the server."
+echo "All import.meta.dirname issues have been fixed."
+echo "You can now run: npm start (production) or npm run dev (development)"
