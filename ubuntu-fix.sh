@@ -9,19 +9,10 @@ cp server/vite.ubuntu-fixed.ts server/vite.ts
 
 # Create Ubuntu-specific .env file
 cat > .env << EOF
-# Ubuntu-compatible environment
+# Ubuntu-compatible environment - minimal setup
 NODE_ENV=development
 PORT=5000
 HOST=0.0.0.0
-
-# Database (optional)
-# DATABASE_URL=postgresql://username:password@localhost:5432/portfolio_db
-
-# Session secret
-SESSION_SECRET=ubuntu-dev-secret-key-change-in-production
-
-# Logging
-LOG_LEVEL=info
 EOF
 
 echo "Ubuntu fix applied!"
