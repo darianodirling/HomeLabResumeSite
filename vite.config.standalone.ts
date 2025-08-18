@@ -3,18 +3,10 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import { fileURLToPath } from "url";
 
-// Get current directory - compatible with older Node.js versions
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Standalone Vite configuration for deployment outside Replit
 export default defineConfig({
-  plugins: [
-    react(),
-    // Optional: Add error overlay for development
-    ...(process.env.NODE_ENV === "development" 
-      ? [] // Add any development-specific plugins here
-      : [])
-  ],
+  plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "client", "src"),

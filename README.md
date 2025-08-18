@@ -77,10 +77,17 @@ DATABASE_URL=postgresql://username:password@localhost:5432/portfolio_db
 SESSION_SECRET=your-super-secret-session-key-here
 ```
 
-### 4. Run Development Server
+### 4. Start the Application
 
+**For Replit development:**
 ```bash
 npm run dev
+```
+
+**For Ubuntu server deployment:**
+```bash
+./setup.sh
+npm start
 ```
 
 The application will be available at:
