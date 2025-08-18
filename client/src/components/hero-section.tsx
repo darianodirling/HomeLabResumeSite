@@ -11,14 +11,14 @@ const HeroSection = () => {
   return (
     <section id="home" className="min-h-screen flex items-center pt-16">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="order-2 lg:order-1">
             <p className="text-emerald-500 font-medium mb-4 tracking-wide">WELCOME</p>
-            <h1 className="text-5xl lg:text-6xl font-serif font-bold mb-6 leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold mb-6 leading-tight">
               Darian O'Dirling,<br />
               <span className="gradient-text">IT Enthusiast</span>
             </h1>
-            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+            <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed">
               I specialize in{" "}
               <span className="text-emerald-400">systems engineering</span>,{" "}
               <span className="text-emerald-400">cybersecurity</span>, and{" "}
@@ -65,11 +65,11 @@ const HeroSection = () => {
               </a>
             </div>
           </div>
-          <div className="order-1 lg:order-2">
+          <div className="order-1 lg:order-2 flex justify-center">
             <img
               src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=1000"
               alt="IT professional in modern server environment"
-              className="rounded-2xl shadow-2xl hover-lift w-full max-w-md mx-auto"
+              className="rounded-2xl shadow-2xl hover-lift w-full max-w-xs sm:max-w-sm lg:max-w-md mx-auto h-auto object-cover"
             />
           </div>
         </div>
