@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail } from "lucide-react";
+import ITIcon from "./it-icon";
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -66,11 +67,9 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="order-2 lg:order-2 flex justify-center">
-            <img
-              src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=1000"
-              alt="IT professional in modern server environment"
-              className="rounded-2xl shadow-2xl hover-lift w-full max-w-xs sm:max-w-sm lg:max-w-md mx-auto h-auto object-cover"
-            />
+            <div className="w-full max-w-xs sm:max-w-sm lg:max-w-md mx-auto">
+              <ITIcon className="w-full h-auto hover-lift" />
+            </div>
           </div>
         </div>
       </div>
