@@ -87,7 +87,12 @@ npm run dev
 **For Ubuntu server deployment:**
 ```bash
 ./setup.sh
-npm start
+./start-ubuntu.sh
+```
+
+**Or use the direct run script:**
+```bash
+./run.sh
 ```
 
 The application will be available at:
