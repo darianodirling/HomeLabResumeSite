@@ -13,7 +13,13 @@ npm run build
 # Create .env if needed
 if [ ! -f .env ]; then
     cp .env.example .env
-    echo "Created .env file - edit if needed"
+    echo "NODE_ENV=development" >> .env
+    echo "Created .env file - running in development mode to avoid serveStatic issue"
 fi
 
-echo "Setup complete. Run 'npm start' to start the server."
+# Force development mode to avoid serveStatic path issues
+sed -i 's/NODE_ENV=production/NODE_ENV=development/' .env
+
+echo "Setup complete!"
+echo "The server will run in development mode to avoid Node.js compatibility issues."
+echo "Run 'npm start' to start the server."
