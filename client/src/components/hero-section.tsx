@@ -12,7 +12,7 @@ const HeroSection = () => {
     <section id="home" className="min-h-screen flex items-center pt-16">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          <div className="order-2 lg:order-1">
+          <div className="order-1 lg:order-1">
             <p className="text-emerald-500 font-medium mb-4 tracking-wide">WELCOME</p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold mb-6 leading-tight">
               Darian O'Dirling,<br />
@@ -65,7 +65,7 @@ const HeroSection = () => {
               </a>
             </div>
           </div>
-          <div className="order-1 lg:order-2 flex justify-center">
+          <div className="order-2 lg:order-2 flex justify-center">
             <img
               src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=1000"
               alt="IT professional in modern server environment"
