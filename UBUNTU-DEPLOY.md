@@ -23,7 +23,10 @@ chmod +x scripts/*.sh
 
 ### 3. Start the Server
 ```bash
-# Simple start (for testing)
+# For development (with hot reload)
+./dev-ubuntu.sh
+
+# For production
 npm start
 
 # Or deploy as production service

@@ -23,9 +23,9 @@ echo "✅ Node.js version: $(node --version)"
 echo "📦 Installing dependencies..."
 npm install
 
-# Build application with production config
+# Build application with Ubuntu-compatible config
 echo "🔨 Building application..."
-npm run build
+./build-ubuntu.sh
 
 # Create environment file if it doesn't exist
 if [ ! -f .env ]; then
