@@ -3,10 +3,22 @@ import { ChevronRight } from "lucide-react";
 const ResumeSection = () => {
   const experiences = [
     {
-      title: "Associate Systems Technical Support Engineer",
+      title: "Technical Consulting Engineer - Network Security",
+      company: "Cisco",
+      location: "Morrisville, NC",
+      period: "October 2025 - Present",
+      highlights: [
+        "Deliver advanced troubleshooting and support for Cisco Secure Access solutions, including VPN, Zero Trust Network Access (ZTNA), and identity-based security architectures.",
+        "Educated customers on Zero Trust principles, endpoint posture validation, and threat mitigation strategies, strengthening organizational cybersecurity posture.",
+        "Collaborated cross-functionally with Secure Firewall, Identity Services Engine (ISE), and Secure Access Cloud teams to deliver integrated, end-to-end access control solutions",
+        "Maintained security clearance eligibility and adhered to strict data protection and compliance standards while supporting federal and enterprise clients.",
+      ],
+    },
+    {
+      title: "Systems Technical Support Engineer",
       company: "SAS",
       location: "Cary, NC",
-      period: "December 2024 – Present",
+      period: "December 2024 – October 2025",
       highlights: [
         "Resolved complex technical issues in SAS 9.4 and SAS Viya environments, minimizing downtime and improving system stability for enterprise clients",
         "Diagnosed system-level bottlenecks in SAS Viya on Kubernetes, implementing optimizations that improved runtime performance",

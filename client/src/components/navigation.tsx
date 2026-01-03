@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
+import { Link, useLocation } from "wouter";
 
 const Navigation = () => {
   const [activeSection, setActiveSection] = useState("home");
+  const [location] = useLocation();
 
   useEffect(() => {
+    if (location !== "/") return;
     const handleScroll = () => {
       const sections = ["home", "about", "resume", "homelab", "contact"];
       const scrollPosition = window.scrollY + 100;
@@ -22,9 +25,13 @@ const Navigation = () => {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [location]);
 
   const scrollToSection = (sectionId: string) => {
+    if (location !== "/") {
+      window.location.href = `/#${sectionId}`;
+      return;
+    }
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -44,7 +51,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="text-xl font-serif font-semibold">Darian O'Dirling</div>
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-8 items-center">
             {navItems.map((item) => (
               <button
                 key={item.id}
@@ -58,6 +65,11 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
+            <Link href="/production-lab">
+              <span className={`cursor-pointer transition-colors ${location === "/production-lab" ? "text-emerald-500" : "text-muted-foreground hover:text-emerald-500"}`}>
+                Production Lab
+              </span>
+            </Link>
           </div>
         </div>
       </div>
