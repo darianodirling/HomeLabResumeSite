@@ -70,6 +70,14 @@ const AboutSection = () => {
                 <Shield className="text-blue-400 w-5 h-5 mr-3" />
                 <span>Salesforce Certified Associate</span>
               </div>
+              <div className="flex items-center">
+                <Cloud className="text-blue-500 w-5 h-5 mr-3" />
+                <span>CCNP Security - In Progress</span>
+              </div>
+              <div className="flex items-center">
+                <Cloud className="text-blue-500 w-5 h-5 mr-3" />
+                <span>CISSP - In Progress</span>
+              </div>
             </div>
           </div>
         </div>
