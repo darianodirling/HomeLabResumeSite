@@ -10,7 +10,7 @@ const AboutSection = () => {
     "Docker",
     "Proxmox",
     "AWS",
-    "SAS Administration",
+    "Systems Administration",
     "Cybersecurity",
     "Networking",
     "AI & Machine Learning",
@@ -22,7 +22,7 @@ const AboutSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-serif font-bold mb-6">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A passionate IT enthusiast with expertise in systems engineering, cybersecurity,
+            A passionate IT enthusiast with expertise in network engineering, systems engineering, cybersecurity,
             programming, and leveraging AI to optimize infrastructure automation.
           </p>
         </div>
@@ -63,20 +63,24 @@ const AboutSection = () => {
                 <span>Cisco CCNA</span>
               </div>
               <div className="flex items-center">
+                <Shield className="text-blue-500 w-5 h-5 mr-3" />
+                <span>CompTIA Security+</span>
+              </div>
+              <div className="flex items-center">
                 <Cloud className="text-blue-500 w-5 h-5 mr-3" />
                 <span>Microsoft Azure AZ-900</span>
               </div>
               <div className="flex items-center">
-                <Shield className="text-blue-400 w-5 h-5 mr-3" />
+                <Cloud className="text-blue-400 w-5 h-5 mr-3" />
                 <span>Salesforce Certified Associate</span>
               </div>
               <div className="flex items-center">
-                <Cloud className="text-blue-500 w-5 h-5 mr-3" />
-                <span>CCNP Security - In Progress</span>
+                <Network className="text-blue-500 w-5 h-5 mr-3" />
+                <span>Cisco CCNP Security - In Progress</span>
               </div>
               <div className="flex items-center">
-                <Cloud className="text-blue-500 w-5 h-5 mr-3" />
-                <span>CISSP - In Progress</span>
+                <Shield className="text-blue-500 w-5 h-5 mr-3" />
+                <span>ICS2 - CISSP - In Progress</span>
               </div>
             </div>
           </div>
