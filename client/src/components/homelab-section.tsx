@@ -8,6 +8,8 @@ import {
   Container,
   Zap,
 } from "lucide-react";
+import { Link } from "wouter";
+import { Button } from "@/components/ui/button";
 
 const HomelabSection = () => {
   const projects = [
@@ -159,7 +161,7 @@ const HomelabSection = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {projects.map((project, index) => (
             <div key={index} className="bg-card p-6 rounded-xl hover-lift">
               <div className="mb-4">{project.icon}</div>
@@ -167,6 +169,18 @@ const HomelabSection = () => {
               <p className="text-muted-foreground text-sm">{project.description}</p>
             </div>
           ))}
+        </div>
+
+        <div className="bg-emerald-500/10 p-8 rounded-2xl border border-emerald-500/20 text-center">
+          <h3 className="text-2xl font-serif font-bold mb-4">Looking for my Enterprise Lab?</h3>
+          <p className="text-lg text-muted-foreground mb-6">
+            Explore my dedicated Cisco Security Production Lab hosted on vSphere, featuring FMC, FTD, ISE, and advanced ZTA architectures.
+          </p>
+          <Link href="/production-lab">
+            <Button className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-6 text-lg">
+              View Production Lab
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
