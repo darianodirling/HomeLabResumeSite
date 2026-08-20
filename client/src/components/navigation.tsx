@@ -8,7 +8,7 @@ const Navigation = () => {
   useEffect(() => {
     if (location !== "/") return;
     const handleScroll = () => {
-      const sections = ["home", "about", "resume", "homelab", "contact"];
+      const sections = ["home", "about", "resume", "homelab", "projects", "contact"];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -43,6 +43,7 @@ const Navigation = () => {
     { id: "about", label: "About" },
     { id: "resume", label: "Resume" },
     { id: "homelab", label: "HomeLab" },
+    { id: "projects", label: "Projects" },
     { id: "contact", label: "Contact" },
   ];
 
@@ -65,11 +66,6 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            <Link href="/production-lab">
-              <span className={`cursor-pointer transition-colors ${location === "/production-lab" ? "text-emerald-500" : "text-muted-foreground hover:text-emerald-500"}`}>
-                Production Lab
-              </span>
-            </Link>
           </div>
         </div>
       </div>

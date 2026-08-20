@@ -3,10 +3,22 @@ import { ChevronRight } from "lucide-react";
 const ResumeSection = () => {
   const experiences = [
     {
-      title: "Technical Consulting Engineer - Network Security",
+      title: "Customer Experience Manager",
+      company: "Nutanix",
+      location: "Remote",
+      period: "March 2026 - Present",
+      highlights: [
+        "Design strategic business-IT roadmaps by leading tailored Customer Success Plans that align complex Nutanix architectures with executive goals for long-term scalability and measurable ROI.",
+        "Architect operational maturity by advising IT leadership on infrastructure standardization and governance, leveraging frameworks such as ITIL to transition customers toward automated, resilient cloud operating models.",
+        "Orchestrate full-stack adoption by directing the end-to-end integration of Nutanix solutions, including AHV, Flow, and DR, ensuring technical requirements translate into stable, enterprise-grade production environments.",
+        "Bridge technical advocacy and engineering as a high-level liaison between customers and Nutanix Product teams to mitigate architectural risks and prioritize feature designs that support evolving infrastructure needs.",
+      ],
+    },
+    {
+      title: "Technical Consulting Engineer - Network Security (Contract)",
       company: "Cisco",
       location: "Morrisville, NC",
-      period: "October 2025 - Present",
+      period: "October 2025 - March 2026",
       highlights: [
         "Deliver advanced troubleshooting and support for Cisco Secure Access solutions, including VPN, Zero Trust Network Access (ZTNA), and identity-based security architectures.",
         "Educated customers on Zero Trust principles, endpoint posture validation, and threat mitigation strategies, strengthening organizational cybersecurity posture.",

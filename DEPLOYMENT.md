@@ -1,4 +1,33 @@
-# Deployment Guide
+# Deploy to Cloudflare Pages
+
+This portfolio is a static Vite site and can be deployed directly to Cloudflare Pages.
+
+## One-time setup
+
+1. Push this repository to GitHub.
+2. In the Cloudflare dashboard, open **Workers & Pages** and select **Create application** > **Pages** > **Connect to Git**.
+3. Select `darianodirling/HomeLabResumeSite` and use `main` as the production branch.
+4. Configure the build:
+   - Build command: `npm run build`
+   - Build output directory: `dist`
+   - Root directory: leave blank
+5. Select **Save and Deploy**. Cloudflare will provide a `pages.dev` URL.
+6. To use a custom domain, open the Pages project, select **Custom domains**, and follow the DNS prompts.
+
+Each push to `main` will deploy the live website. Other branches receive preview deployments.
+
+## Local preview
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite, normally `http://localhost:5173`.
+
+---
+
+# Legacy Deployment Guide
 
 This guide covers different deployment strategies for the portfolio website.
 

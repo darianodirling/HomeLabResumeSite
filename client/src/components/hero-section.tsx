@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 import ITIcon from "./it-icon";
 
 const HeroSection = () => {
@@ -20,20 +20,17 @@ const HeroSection = () => {
               <span className="gradient-text">IT Enthusiast</span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed">
-              I specialize in{" "}
-              <span className="text-emerald-400">systems engineering</span>,{" "}
-              <span className="text-emerald-400">cybersecurity</span>,{" "}
-              <span className="text-emerald-400">programming & scripting</span>, and{" "}
-              <span className="text-emerald-400">leveraging AI</span> for infrastructure automation.
-              My experience spans from enterprise SAS environments to building resilient
-              homelab architectures that push the boundaries of what's possible.
+              I specialize in <span className="text-emerald-400">networking</span>,{" "}
+              <span className="text-emerald-400">systems administration</span>, and{" "}
+              <span className="text-emerald-400">cloud</span>, with a passion for building
+              resilient, secure IT infrastructure.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <button
-                onClick={() => scrollToSection("homelab")}
+                onClick={() => scrollToSection("about")}
                 className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-lg font-medium transition-colors text-center"
               >
-                Explore My HomeLab
+                About Me
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
@@ -44,20 +41,12 @@ const HeroSection = () => {
             </div>
             <div className="flex space-x-6">
               <a
-                href="https://linkedin.com/in/darianodirling"
+                href="https://www.linkedin.com/in/darianodirling/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-emerald-500 transition-colors"
               >
                 <Linkedin className="w-6 h-6" />
-              </a>
-              <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-emerald-500 transition-colors"
-              >
-                <Github className="w-6 h-6" />
               </a>
               <a
                 href="mailto:darianodirling@gmail.com"

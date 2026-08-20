@@ -26,7 +26,7 @@ const ContactSection = () => {
             Email Me
           </a>
           <a
-            href="https://linkedin.com/in/darianodirling"
+            href="https://www.linkedin.com/in/darianodirling/"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-border hover:border-emerald-500 text-muted-foreground hover:text-emerald-400 px-8 py-4 rounded-lg font-medium transition-colors flex items-center"

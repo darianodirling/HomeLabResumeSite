@@ -3,6 +3,7 @@ import HeroSection from "@/components/hero-section";
 import AboutSection from "@/components/about-section";
 import ResumeSection from "@/components/resume-section";
 import HomelabSection from "@/components/homelab-section";
+import ProjectsSection from "@/components/projects-section";
 import ContactSection from "@/components/contact-section";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <AboutSection />
       <ResumeSection />
       <HomelabSection />
+      <ProjectsSection />
       <ContactSection />
       
       {/* Footer */}
